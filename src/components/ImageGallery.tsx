@@ -7,7 +7,7 @@ const ImageGallery = () => {
     {
       src: "/lovable-uploads/d5b703ac-03c0-4261-9cc2-a3017541c0d3.png",
       alt: "PetaParking Module Front View",
-      caption: "Sleek and Modern Design with Integrated Thermal Printer"
+      caption: "Sleek and Modern Design with Thermal Printer Integration for automatic slip generation"
     },
     // {
     //   src: "/lovable-uploads/06983b8a-c52e-44db-b99d-c2d5854fd21e.png",
