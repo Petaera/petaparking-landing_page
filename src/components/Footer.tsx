@@ -22,7 +22,8 @@ const Footer = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 
-              size="lg" 
+              size="lg"
+              variant="outline" 
               className="bg-black hover:bg-gray-900 text-white"
             >
               Download on Android

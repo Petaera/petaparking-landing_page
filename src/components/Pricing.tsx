@@ -58,9 +58,11 @@ const Pricing = () => {
                 </ul>
               </CardContent>
               <CardFooter className="p-6">
-                <Button className="w-full bg-primary hover:bg-primary/90">
-                  Book a Demo
-                </Button>
+              <Button className="w-full bg-primary hover:bg-primary/90">
+  <a href="mailto:petaerallp@gmail.com?subject=We%20are%20interested%20in%20PetaParking,%20let%20me%20know%20more%20about%20it!">
+    Book a Demo
+  </a>
+</Button>
               </CardFooter>
             </Card>
           ))}
