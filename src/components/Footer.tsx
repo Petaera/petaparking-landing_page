@@ -75,7 +75,9 @@ const Footer = () => {
           </div>
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Contact</h3>
-            <p className="text-gray-400">Petaerallp@gmail.com</p>
+            <a href="mailto:petaerallp@gmail.com?subject=We%20are%20interested%20in%20PetaParking,%20let%20me%20know%20more%20about%20it!">
+    Petaerallp@gmail.com
+  </a>
           </div>
         </div>
 
