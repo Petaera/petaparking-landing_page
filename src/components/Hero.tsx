@@ -8,6 +8,13 @@ const Hero = () => {
       <div className="container px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-left space-y-8">
+            <div className="flex items-center mb-8">
+              <img
+                src="/lovable-uploads/29bb7e4c-5643-4e02-ac91-f4ed88166a44.png"
+                alt="PetaParking Logo"
+                className="h-12 w-auto"
+              />
+            </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-primary">
               Smarter Parking Starts Here
             </h1>
@@ -28,7 +35,7 @@ const Hero = () => {
           <div className="relative lg:block">
             <div className="relative w-full h-[600px] rounded-lg overflow-hidden shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
+                src="/lovable-uploads/ec762e02-6f47-4602-8e56-0f9fef533fe2.png"
                 alt="PetaParking Dashboard"
                 className="object-cover w-full h-full"
               />
