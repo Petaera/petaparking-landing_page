@@ -34,14 +34,20 @@ const ImageGallery = () => {
   return (
     <section className="py-24 bg-gradient-to-b from-white to-gray-50">
       <div className="container px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
           <h2 className="text-4xl font-bold text-primary mb-4">
             Intelligent Hardware Module
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
             Built for 24/7 Performance with Advanced Cooling Technology
           </p>
-        </div>
+        </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {images.map((image, index) => (
             <motion.div
