@@ -5,17 +5,18 @@ import { motion } from "framer-motion";
 const ImageGallery = () => {
   const images = [
     {
-      src: "/lovable-uploads/93f99e44-dbe0-4021-ae13-f52004cd7e48.png",
+      src: "/lovable-uploads/d5b703ac-03c0-4261-9cc2-a3017541c0d3.png",
       alt: "PetaParking Module Front View",
       caption: "Sleek and Modern Design with Integrated Thermal Printer"
     },
+    // {
+    //   src: "/lovable-uploads/06983b8a-c52e-44db-b99d-c2d5854fd21e.png",
+    //   alt: "PetaParking Module Side View",
+    //   caption: "Advanced Cooling System Integration"
+    // },
     {
-      src: "/lovable-uploads/06983b8a-c52e-44db-b99d-c2d5854fd21e.png",
-      alt: "PetaParking Module Side View",
-      caption: "Advanced Cooling System Integration"
-    },
-    {
-      src: "/lovable-uploads/d5b703ac-03c0-4261-9cc2-a3017541c0d3.png",
+      
+      src: "/lovable-uploads/93f99e44-dbe0-4021-ae13-f52004cd7e48.png",
       alt: "PetaParking Module Angle View",
       caption: "Compact Form Factor for Easy Installation"
     },
