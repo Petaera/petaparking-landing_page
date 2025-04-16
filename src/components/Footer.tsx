@@ -60,13 +60,13 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Legal</h3>
             <div className="space-y-2">
-            <Button className="text-gray-400 hover:text-white p-0">
+            <Button >
   <a href="https://petaera.com/PetaParking_terms/" target="_blank" rel="noopener noreferrer">
     Terms of Service
   </a>
 </Button>
               <br />
-              <Button className="text-gray-400 hover:text-white p-0">
+              <Button>
   <a href="https://petaera.com/PetaParking_privacy/" target="_blank" rel="noopener noreferrer">
     Privacy policy
   </a>
