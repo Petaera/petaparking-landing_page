@@ -60,11 +60,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Legal</h3>
             <div className="space-y-2">
-              <Button variant="https://petaera.com/PetaParking_terms/" className="text-gray-400 hover:text-white p-0">
+              <Button onClick="https://petaera.com/PetaParking_terms/"  variant="https://petaera.com/PetaParking_terms/" className="text-gray-400 hover:text-white p-0">
                 Terms of Service
               </Button>
               <br />
-              <Button variant="https://petaera.com/PetaParking_privacy/" className="text-gray-400 hover:text-white p-0">
+              <Button onClick="https://petaera.com/PetaParking_privacy/" variant="https://petaera.com/PetaParking_privacy/" className="text-gray-400 hover:text-white p-0">
                 Privacy Policy
               </Button>
             </div>
