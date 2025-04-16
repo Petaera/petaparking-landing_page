@@ -31,7 +31,7 @@ const Footer = () => {
             <Button 
               size="lg" 
               variant="outline"
-              className="border-black text-white hover:bg-white hover:text-black transition-colors duration-300"
+              className="bg-black hover:bg-gray-900 text-white"
             >
               Download on iOS
               <ArrowRight className="ml-2 h-4 w-4" />
@@ -59,18 +59,18 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Legal</h3>
             <div className="space-y-2">
-              <Button variant="link" className="text-gray-400 hover:text-white p-0">
+              <Button variant="https://petaera.com/PetaParking_terms/" className="text-gray-400 hover:text-white p-0">
                 Terms of Service
               </Button>
               <br />
-              <Button variant="link" className="text-gray-400 hover:text-white p-0">
+              <Button variant="https://petaera.com/PetaParking_privacy/" className="text-gray-400 hover:text-white p-0">
                 Privacy Policy
               </Button>
             </div>
           </div>
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Contact</h3>
-            <p className="text-gray-400">support@petaparking.com</p>
+            <p className="text-gray-400">Petaerallp@gmail.com</p>
           </div>
         </div>
 

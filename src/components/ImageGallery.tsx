@@ -24,11 +24,11 @@ const ImageGallery = () => {
       alt: "PetaParking Module with Ports",
       caption: "Multiple Ports for Camera and Network Integration"
     },
-    {
-      src: "/lovable-uploads/ec762e02-6f47-4602-8e56-0f9fef533fe2.png",
-      alt: "PetaParking App Interface",
-      caption: "Intuitive Dashboard for Real-time Monitoring"
-    }
+    // {
+    //   src: "/lovable-uploads/ec762e02-6f47-4602-8e56-0f9fef533fe2.png",
+    //   alt: "PetaParking App Interface",
+    //   caption: "Intuitive Dashboard for Real-time Monitoring"
+    // }
   ];
 
   return (
