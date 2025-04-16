@@ -7,27 +7,27 @@ const ImageGallery = () => {
     {
       src: "/lovable-uploads/93f99e44-dbe0-4021-ae13-f52004cd7e48.png",
       alt: "PetaParking Module Front View",
-      caption: "Front View: Sleek and Modern Design with Integrated Thermal Printer"
+      caption: "Sleek and Modern Design with Integrated Thermal Printer"
     },
     {
       src: "/lovable-uploads/06983b8a-c52e-44db-b99d-c2d5854fd21e.png",
       alt: "PetaParking Module Side View",
-      caption: "Side Profile: Advanced Cooling System Integration"
+      caption: "Advanced Cooling System Integration"
     },
     {
       src: "/lovable-uploads/d5b703ac-03c0-4261-9cc2-a3017541c0d3.png",
       alt: "PetaParking Module Angle View",
-      caption: "Angled View: Compact Form Factor for Easy Installation"
+      caption: "Compact Form Factor for Easy Installation"
     },
     {
       src: "/lovable-uploads/25b89c1f-1fbf-49bb-a5f9-13e3dec7e143.png",
       alt: "PetaParking Module with Ports",
-      caption: "Connectivity: Multiple Ports for Camera and Network Integration"
+      caption: "Multiple Ports for Camera and Network Integration"
     },
     {
       src: "/lovable-uploads/ec762e02-6f47-4602-8e56-0f9fef533fe2.png",
       alt: "PetaParking App Interface",
-      caption: "Mobile App: Intuitive Dashboard for Real-time Monitoring"
+      caption: "Intuitive Dashboard for Real-time Monitoring"
     }
   ];
 

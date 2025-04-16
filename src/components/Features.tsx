@@ -12,7 +12,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const features = [
   {
     title: "Automatic Vehicle Detection",
-    description: "Real-time number plate recognition using IP cameras",
+    description: "Real-time number plate & vehicle type recognition using IP cameras",
     icon: Camera,
   },
   {
