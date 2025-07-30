@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -33,6 +33,7 @@ const Footer = () => {
               size="lg" 
               variant="outline"
               className="bg-black hover:bg-gray-900 text-white"
+              
             >
               Download on iOS
               <ArrowRight className="ml-2 h-4 w-4" />
@@ -60,23 +61,22 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Legal</h3>
             <div className="space-y-2">
-            <Button variant="link" className="text-gray-400 hover:text-white p-0" >
-  <a href="https://petaera.com/PetaParking_terms/" target="_blank" rel="noopener noreferrer">
-    Terms of Service
-  </a>
+            <Button variant="link" className="text-gray-400 hover:text-white p-0" asChild>
+  <Link to="/terms">Terms & Conditions</Link>
+
+
 </Button>
               <br />
-              <Button variant="link" className="text-gray-400 hover:text-white p-0">
-  <a href="https://petaera.com/PetaParking_privacy/" target="_blank" rel="noopener noreferrer">
-    Privacy policy
-  </a>
+             <Button variant="link" className="text-gray-400 hover:text-white p-0">
+  <Link to="/privacy">Privacy Policy</Link>
+
 </Button>
             </div>
           </div>
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Contact</h3>
             <a href="mailto:petaerallp@gmail.com?subject=I%20am%20interested%20in%20PetaParking,%20let%20me%20know%20more%20about%20it!">
-    Petaerallp@gmail.com
+    info@petaera.com
   </a>
           </div>
         </div>
