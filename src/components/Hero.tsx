@@ -4,8 +4,14 @@ import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const Hero = () => {
   return (
+    
     <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-white">
       <div className="container px-4 py-16 sm:px-6 lg:px-8">
+        <img
+      src="public\lovable-uploads\PETAERA COMPLETE LOGO.png"
+      alt="PetaEra Logo"
+      className="h-24 w-auto"
+    />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div 
             initial={{ opacity: 0, x: -20 }}

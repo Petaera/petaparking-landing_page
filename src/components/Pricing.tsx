@@ -59,7 +59,7 @@ const Pricing = () => {
               </CardContent>
               <CardFooter className="p-6">
               <Button asChild className="w-full bg-primary hover:bg-primary/90">
-  <a href="mailto:petaerallp@gmail.com?subject=I%20am%20interested%20in%20PetaParking,%20let%20me%20know%20more%20about%20it!">
+  <a href="mailto:info@petaera.com?subject=I%20am%20interested%20in%20PetaParking,%20let%20me%20know%20more%20about%20it!">
     Book a Demo
   </a>
 </Button>

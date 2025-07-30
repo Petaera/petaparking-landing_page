@@ -21,24 +21,38 @@ const Footer = () => {
             />
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button 
-              size="lg"
-              variant="outline" 
-              className="bg-black hover:bg-gray-900 text-white"
-            >
-              Download on Android
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="bg-black hover:bg-gray-900 text-white"
-              
-            >
-              Download on iOS
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-          </div>
+  <Button
+    asChild
+    size="lg"
+    variant="outline"
+    className="bg-black hover:bg-gray-900 text-white"
+  >
+    <a
+      href="https://play.google.com/store/apps/details?id=com.petaera.petaparking"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Download on Android
+      <ArrowRight className="ml-2 h-4 w-4" />
+    </a>
+  </Button>
+
+  <Button
+    asChild
+    size="lg"
+    variant="outline"
+    className="bg-black hover:bg-gray-900 text-white"
+  >
+    <a
+      href="https://apps.apple.com/app/id6744754113"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Download on iOS
+      <ArrowRight className="ml-2 h-4 w-4" />
+    </a>
+  </Button>
+</div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -49,13 +63,16 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Download</h3>
             <div className="space-y-2">
+              <a
+      href="https://play.google.com/store/apps/details?id=com.petaera.petaparking">
               <Button variant="link" className="text-gray-400 hover:text-white p-0">
                 Android App
-              </Button>
+              </Button></a>
               <br />
+              <a href="https://apps.apple.com/app/id6744754113">
               <Button variant="link" className="text-gray-400 hover:text-white p-0">
                 iOS App
-              </Button>
+              </Button></a>
             </div>
           </div>
           <div className="space-y-4">
